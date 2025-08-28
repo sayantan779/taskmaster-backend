@@ -1,0 +1,29 @@
+{
+  "name": "taskmaster-backend",
+  "version": "1.0.0",
+  "description": "Test project Devops",
+  "main": "index.js",
+  {
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  }
+}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayantan779/taskmaster-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sayantan779/taskmaster-backend/issues"
+  },
+  "homepage": "https://github.com/sayantan779/taskmaster-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+  }
+}
